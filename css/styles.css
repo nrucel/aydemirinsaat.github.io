@@ -4665,9 +4665,9 @@ textarea.form-control-lg {
 }
 
 .alert-secondary {
-  --bs-alert-color: #88124d;
-  --bs-alert-bg: #f9d2e6;
-  --bs-alert-border-color: #f6bcd9;
+  --bs-alert-color: #383d41;
+  --bs-alert-bg: #f8f9fa;
+  --bs-alert-border-color: #f8f9fa;
 }
 .alert-secondary .alert-link {
   color: #6d0e3e;
@@ -11555,8 +11555,11 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #000000;
+  /*background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%)*/;
+  background: linear-gradient(45deg, rgb(98 80 80 / 25%) 25%, black 0, #1e1b1b 75%, rgb(0 0 0 / 25%) 0),  linear-gradient(45deg, rgb(0 0 0 / 25%) 25%, black 0, black 75%, rgb(0 0 0 / 25%) 0);
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
 }
 
 .text-gradient {
